@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,50 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <header>
-
+    <div class="ticker-container">
+        <iframe title='People who died from hunger'
+            src='https://www.theworldcounts.com/embeds/counters/2?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14'
+            style='border: none' height='100' width='300'></iframe>
+    </div>
 </header>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" style="margin: 2%;">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="checklist.htm">Printable Checklist</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.211.org/get-help/disaster-recovery">211 Disaster Recovery</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Trivia Games
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="curvetheboredom.html">Trivia Games Home</a>
+                    <a class="dropdown-item" href="tvtrivia.html">TV Trivia Game</a>
+                    <a class="dropdown-item" href="musicaltrivia.html">Musical Theater Trivia Game</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 <body>
-    
+    <form action="contact">
+        <input type="name" placeholder="Name" id="name">
+        <input type="email" placeholder="Email" id="email">
+        <input type="phoneNumber" placeholder="Phone Number" id="phoneNumber">
+    </form>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -24,4 +63,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
